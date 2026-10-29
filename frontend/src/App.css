@@ -1,0 +1,35 @@
+.landingPageContainer{
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url("/public/background.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: radial-gradient(
+    circle at 50% 0%, 
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 25%,
+    rgb(255, 255, 255) 70%,
+    rgb(176, 176, 176) 100%
+  );
+  /* background-color: white; */
+}
+.landingImage img{
+  border-radius: 10px !important;
+}
+.btn-style{
+   border-radius: 0 !important;
+   border: 1px solid #4A6CF7;
+}
+
+
+
+.activebutton{
+    background-color: #4A6CF7 !important;
+    color: white;
+}
+
+.inActivebutton{
+    background-color: white !important;
+    color: #4A6CF7;
+}
+
